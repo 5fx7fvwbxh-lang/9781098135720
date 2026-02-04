@@ -1,0 +1,34 @@
+# Machine Learning with Python Cookbook Practical Solutions from Preprocessing to Deep Learning Repository
+
+[project]
+name="ml-py-cookbook"
+version="2026.2"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.4.2",
+    "scipy>=1.17.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings  
+    "F",   # pyflakes
+    "I",   # isort (import sorting)
+    "B",   # flake8-bugbear (common bugs)
+    "UP",  # pyupgrade (modern Python idioms)
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.0",
+]
+
