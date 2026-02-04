@@ -15,5 +15,5 @@ matrix_large_sparse = sparse.csr_matrix(matrix_large)
 
 
 if __name__ == "__main__":
-    print(matrix_sparse)  
+    print(matrix_sparse)
     print(matrix_large_sparse)
